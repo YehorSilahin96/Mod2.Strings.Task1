@@ -9,6 +9,7 @@ public class Main {
         String s3 = "This is not Exercise 1";
         boolean flag;
 
+        //equal of strings
         flag = s1.equalsIgnoreCase(s2);
         System.out.println("Is s1 equal to s2 ? Its " + flag);
 
