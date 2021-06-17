@@ -10,7 +10,7 @@ public class Main {
 
         //equal of strings
         boolean lowerCaseEx1 = str1.equalsIgnoreCase(str2);
-        System.out.println("Is s1 equal to s2 ? Its " + lowerCaseEx1); // optimizing and renaming
+        System.out.println("Is s1 equal to s2 ? Its " + lowerCaseEx1); // optimizing and renaming variables
 
         boolean lowerCaseEx2 = str1.equalsIgnoreCase(str3);
         System.out.println("Is s1 equal to s2 ? Its " + lowerCaseEx2); // fixing bag
