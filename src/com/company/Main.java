@@ -9,6 +9,7 @@ public class Main {
         String s3 = "This is not Exercise 1";
         boolean flag;       //  better to name variables by meaning. For example, boolean areCaseInsensitiveEqual or areTotallyEqual or just areEqual
 
+        //equal of strings
         flag = s1.equalsIgnoreCase(s2);
         System.out.println("Is s1 equal to s2 ? Its " + flag); // you can optimize and avoid creating of excess variable
 
