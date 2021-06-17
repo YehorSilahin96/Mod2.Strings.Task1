@@ -4,17 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String s1 = "This is exercise 1";
-        String s2 = "This is Exercise 1";
-        String s3 = "This is not Exercise 1";
-        boolean flag;
+        String str1 = "This is exercise 1";
+        String str2 = "This is Exercise 1";
+        String str3 = "THIS IS EXERCISE 1";
 
         //equal of strings
-        flag = s1.equalsIgnoreCase(s2);
-        System.out.println("Is s1 equal to s2 ? Its " + flag);
+        boolean lowerCaseEx1 = str1.equalsIgnoreCase(str2);
+        System.out.println("Is s1 equal to s2 ? Its " + lowerCaseEx1); // optimizing and renaming
 
-        flag = s1.equalsIgnoreCase(s3);
-        System.out.println("Is s1 equal to s2 ? Its " + flag);
+        boolean lowerCaseEx2 = str1.equalsIgnoreCase(str3);
+        System.out.println("Is s1 equal to s2 ? Its " + lowerCaseEx2); // fixing bag
 
     }
 }
